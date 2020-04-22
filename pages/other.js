@@ -4,11 +4,11 @@ import style from '../static/style';
 export default () =><div>
   {style}
   <h1>Next.js</h1>
-  <p>Welcome to next.js:</p>
+  <p>This is Other page.</p>
   <hr />
   <div>
-    <Link href="/other">
-      <button>Go to Other page &gt;&gt;</button>
+    <Link href="/">
+      <button>&lt;&lt; Back to Index page</button>
     </Link>
   </div>
 </div>
