@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Counter from '../components/Counter';
 import style from '../static/style';
 
 export default () =><div>
@@ -11,4 +12,6 @@ export default () =><div>
       <button>Go to Other page &gt;&gt;</button>
     </Link>
   </div>
+  <hr />
+  <Counter />
 </div>
