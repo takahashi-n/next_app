@@ -3,11 +3,13 @@ import Layout from '../components/Layout';
 import Counter from '../components/Counter';
 
 export default () =>(
-  <Layout header="Next" title="Top page.">
+  <Layout header="Other" title="Other page.">
     <Counter />
     <hr />
-    <Link href="/other">
-      <button>Go to Other page &gt;&gt;</button>
-    </Link>
+    <div>
+      <Link href="/">
+        <button>&lt;&lt; Back to Index page</button>
+      </Link>
+    </div>
   </Layout>
 );
